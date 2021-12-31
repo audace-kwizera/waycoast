@@ -27,7 +27,7 @@
     <body>
         <header>
             
-            <div>
+            <div class="logo">
                 <video poster="/media/noiretrougelogo.png" autoplay loop width="150">
                     <source src="/media/Noir-et-Rouge-Cool-et-Funky-Jeu-Logo.mp4">
                     <source src="/media/Noir-et-Rouge-Cool-et-Funky-Jeu-Logo.webm">
@@ -49,6 +49,10 @@
             </div>
     
             <section class="formulaire">
+                <div class="twingo">
+                    <image src="media/renault_twingo_989_010700000a4107a6.jpeg" alt="renault twingo" />
+                </div>
+
                 <div class="container">
                     <form id="prixDuTrajet">
                         <div class="info">
@@ -61,7 +65,7 @@
                             <div class="reponse">
                                 <div class="reponse__conso">
                                     <input class="input" id="conso" type="number">
-                                    <p>L/100</p>
+                                    <p class="inputtext">L/100</p>
                                 </div>
                             </div>                            
                         </div>
@@ -76,7 +80,7 @@
                             <div class="reponse">
                                 <div class="reponse__distanceParcouru">
                                     <input class="input" id="distanceParcouru" type="number">
-                                    <p>km</p>
+                                    <p class="inputtext">km</p>
                                 </div>
                             </div>                            
                         </div>
@@ -91,7 +95,7 @@
                             <div class="reponse">
                                 <div class="reponse__prixCarburant">
                                     <input class="input" id="prixCarburant" type="number">
-                                    <p>€/L</p>
+                                    <p class="inputtext">€/L</p>
                                 </div>
                             </div>                            
                         </div>
@@ -118,14 +122,12 @@
         </main>
     
         <footer>
-            <div class="footerlist">
                 <ul>
                     <li><a href="#">Fonctionnement du site</a></li>
                     <li><a href="#">Données de confidentialité</a></li>
                     <li><a href="#">Nous contacter</a></li>
                     <li><a href="#">Notre équipe</a></li>
                 </ul>
-            </div>
         </footer>
     </body>
 

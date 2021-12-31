@@ -1,8 +1,21 @@
 /*  Responsive Breakpoint  */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+nav {
+  width: 70%;
+}
+
 .footerlist {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
 }
 
 ul {
@@ -15,9 +28,18 @@ ul {
 
 html,
 body {
+  background-color: black;
   margin: 1rem;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   padding: 0.5rem;
+}
+
+h1, p, a, li {
+  color: white;
+}
+
+.inputtext {
+  color: black;
 }
 
 a {
@@ -32,5 +54,27 @@ a {
 
 img {
   max-width: 100%;
+  border-radius: 50px;
+}
+
+.description__prixCarburant, .description__distanceParcouru, .description__conso {
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.formulaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.twingo {
+  width: 45%;
+  margin: 3rem;
+  border-radius: 50px !important;
+}
+
+.prixDuTrajet {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

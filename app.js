@@ -15,6 +15,6 @@ function prixDuTrajet(e) {
 
     const userPrixTrajet = (userTarifConso * userTarifTrajet * userTarifCarburant).toFixed(2);
 
-    document.getElementById("tarifConso").innerHTML = "$" + userPrixTrajet;
+    document.getElementById("tarifConso").innerHTML = userPrixTrajet + "€";
     e.preventDefault();
 }
